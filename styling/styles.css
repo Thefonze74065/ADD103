@@ -1,0 +1,38 @@
+body {
+  margin: 10%;
+  background-color: #ffe8c9;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #4a90e2;
+  font-family: "Merriweather", serif;
+}
+
+h3 {
+  color: #50c1e3;
+  font-family: "Merriweather", serif;
+}
+
+p {
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.img-centered {
+  width: 30%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+.holi-intro {
+  color: #ff5733;
+  font-family: Arial, sans-serif;
+}
