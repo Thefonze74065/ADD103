@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Calendar</title>
+		<link rel="stylesheet" href="../css/styles.css" />
+		<style>
+			table.calendar {
+				border-collapse: collapse;
+				width: 90%;
+				margin: 2em auto;
+				background: white;
+			}
+			.calendar th,
+			.calendar td {
+				border: 1px solid silver;
+				width: 14.28%;
+				height: 60px;
+				text-align: right;
+				padding: 8px;
+				font-size: 1.1em;
+			}
+			.calendar th {
+				background: steelblue;
+				color: white;
+			}
+			.calendar th.weekend {
+				background: tomato;
+				color: white;
+			}
+			.calendar td.weekend {
+				background: mistyrose;
+				color: firebrick;
+				font-weight: bold;
+			}
+			.calendar td {
+				background: white;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Calendar</h1>
+		<nav>
+			<a href="../index.html">Table Basics</a>
+			<a href="styling-tables.html">Styling Tables</a>
+			<a href="calendar.html">calendar</a>
+		</nav>
+		<table class="calendar">
+			<thead>
+				<tr>
+					<th class="weekend">Sun</th>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thu</th>
+					<th>Fri</th>
+					<th class="weekend">Sat</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="weekend"></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>1</td>
+					<td>2</td>
+					<td class="weekend">3</td>
+				</tr>
+				<tr>
+					<td class="weekend">4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+					<td>8</td>
+					<td>9</td>
+					<td class="weekend">10</td>
+				</tr>
+				<tr>
+					<td class="weekend">11</td>
+					<td>12</td>
+					<td>13</td>
+					<td>14</td>
+					<td>15</td>
+					<td>16</td>
+					<td class="weekend">17</td>
+				</tr>
+				<tr>
+					<td class="weekend">18</td>
+					<td>19</td>
+					<td>20</td>
+					<td>21</td>
+					<td>22</td>
+					<td>23</td>
+					<td class="weekend">24</td>
+				</tr>
+				<tr>
+					<td class="weekend">25</td>
+					<td>26</td>
+					<td>27</td>
+					<td>28</td>
+					<td>29</td>
+					<td>30</td>
+					<td class="weekend">31</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

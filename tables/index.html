@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Table Basics</title>
+		<link rel="stylesheet" href="css/styles.css" />
+		<style>
+			table,
+			th,
+			td {
+				border: 1px solid black;
+			}
+			table {
+				margin: 20px auto;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Table Basics</h1>
+		<nav>
+			<a href="index.html">Table Basics</a>
+			<a href="pages/styling-tables.html">Styling Tables</a>
+			<a href="pages/calendar.html">calendar</a>
+		</nav>
+		<table width="80%">
+			<tr>
+				<th></th>
+				<th>Column 1</th>
+				<th>Column 2</th>
+				<th>Column 3</th>
+				<th>Column 4</th>
+			</tr>
+			<tr>
+				<th>Row 1</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th>Row 2</td>
+				<td rowspan="3">Rowspan 3</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th>Row 3</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th>Row 4</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th>Row 5</td>
+				<td colspan="2"> Column Span 2</td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</body>
+</html>
