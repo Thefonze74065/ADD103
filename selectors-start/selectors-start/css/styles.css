@@ -1,0 +1,94 @@
+/* ID styles */
+#main-section {
+	background-color: aliceblue;
+	border: 2px solid navy;
+}
+
+#big-text {
+	font-size: 24px;
+	/* Overwrites color from the highlight class*/
+	color: darkslateblue;
+	border-bottom: 2px dotted orange;
+}
+/* Classes */
+.highlight {
+	background-color: khaki;
+	color: darkred;
+	font-weight: bold;
+}
+
+.rounded-box {
+	border-radius: 16px;
+	/* Dashed border doesn't apply because it gets overridden by the solid border in the container class */
+	border: 2px dashed teal;
+	background-color: honeydew;
+}
+body {
+	background-color: ivory;
+	font-family: arial, helvetica, sans-serif;
+	padding: 10px;
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+div,
+header,
+footer,
+nav,
+main,
+aside {
+	overflow: auto;
+	border: 1px solid gold;
+	margin: 10px;
+	padding: 10px;
+}
+
+div {
+	background-color: lavenderblush;
+}
+
+header {
+	background-color: lightcyan;
+}
+
+footer {
+	background-color: lightyellow;
+}
+
+main {
+	background-color: lightgrey;
+}
+
+aside {
+	background-color: lightgreen;
+}
+
+nav {
+	background-color: lightpink;
+}
+
+/* Applies to all Containers */
+.container {
+	width: 80%;
+	margin: 10px auto;
+	padding: 20px;
+	border: 4px solid rebeccapurple;
+	background-color: #f3eaff;
+}
+/* Applies to Nested Containers */
+.container .container {
+	border: 4px solid burlywood;
+	border-radius: 20px;
+}
+
+nav {
+	text-align: center;
+}
+
+h2 {
+	text-align: left;
+}
+
+.container p {
+	margin-left: 15px;
+}
