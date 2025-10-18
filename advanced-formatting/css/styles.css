@@ -1,0 +1,73 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	padding: 20px;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+}
+
+.example {
+	background: white;
+	padding: 20px;
+	margin: 20px auto;
+	max-width: 600px;
+	border: 1px solid #ddd;
+}
+
+.example h2 {
+	color: #4a90e2;
+	margin-top: 0;
+}
+
+.rounded-box {
+	background-color: lightblue;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.gradient-box {
+	background: linear-gradient(to right, purple, pink);
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.shadow-box {
+	background-color: lightyellow;
+	padding: 20px;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.text-effects {
+	background-color: lightgray;
+	padding: 20px;
+}
+
+.text-shadow {
+	font-size: 24px;
+	color: darkblue;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.background-image {
+	background-image: url("../images/code.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 60px;
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	text-shadow: 2px 2px 4px black;
+}
+
+.color-box {
+	background-color: coral;
+	color: white;
+	padding: 20px;
+	border: 3px solid darkred;
+}
