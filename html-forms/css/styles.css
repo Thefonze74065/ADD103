@@ -1,0 +1,80 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #fafafa;
+	margin: 16px;
+	color: #222;
+}
+
+.form-page {
+	max-width: 720px;
+	margin: 0 auto;
+}
+
+.survey-form {
+	background: #fff;
+	padding: 16px;
+	border: 1px solid #ddd;
+}
+
+.survey-form label {
+	display: block;
+	margin: 12px 0 6px;
+}
+
+.survey-form input,
+.survey-form select,
+.survey-form textarea {
+	display: block;
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+.survey-form input[type="number"] {
+	width: 120px;
+}
+
+.survey-form ::placeholder {
+	color: #777;
+}
+
+.survey-form input:focus,
+.survey-form select:focus,
+.survey-form textarea:focus {
+	border-color: #4a90e2;
+	outline: none;
+}
+
+.checkbox-row {
+	margin-top: 10px;
+}
+
+.form-actions {
+	margin-top: 14px;
+}
+
+.form-actions button {
+	background: #4a90e2;
+	color: #fff;
+	border: none;
+	padding: 8px 12px;
+	border-radius: 4px;
+}
+
+/* Fieldset and radio/checkbox alignment */
+.survey-form fieldset {
+	border: none;
+	padding: 0;
+	margin-top: 12px;
+}
+.survey-form fieldset legend {
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+.survey-form fieldset label {
+	display: inline-flex;
+	align-items: center;
+	margin-right: 12px;
+}

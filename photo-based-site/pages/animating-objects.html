@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Animating Objects</title>
+		<link rel="stylesheet" href="../css/styles.css" />
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container"><h1>Animating Objects</h1></div>
+		</header>
+		<nav class="site-nav">
+			<div class="container nav-inner">
+				<a href="../index.html">Home</a
+				><a href="installation.html">Installation &amp; Setup</a
+				><a href="character-creation.html">Character Creation</a
+				><a href="creating-a-tileset.html">Creating A Tileset</a
+				><a href="animating-objects.html">Animating Objects</a>
+			</div>
+		</nav>
+		<main class="container">
+			<section class="viewer" aria-label="Animation steps viewer">
+				<div class="thumbs">
+					<img
+						src="../images/animation-1.png"
+						data-src="../images/animation-1.png"
+						data-text='1. Create a new scene for your object, and use "Area2D" As the root node.'
+						alt="1"
+					/>
+					<img
+						src="../images/animation-2.png"
+						data-src="../images/animation-2.png"
+						data-text='2. As a child node, add "AnimatedSprite2D".'
+						alt="2"
+					/>
+					<img
+						src="../images/animation-3.png"
+						data-src="../images/animation-3.png"
+						data-text="3. In the Inspector to the right, add new sprite frames, and load in from a sprite sheet. I'll be using the 'coin.png' file from the demo assets."
+						alt="3"
+					/>
+					<img
+						src="../images/animation-4.png"
+						data-src="../images/animation-4.png"
+						data-text="4. Set the Horizontal and Vertical grid according to your sprite sheet. For me, that's 12 Horizontal and 1 Vertical. Finally, click the frames in the order you want them to be displayed. Click Add frames at the bottom of the window."
+						alt="4"
+					/>
+					<img
+						src="../images/animation-5.png"
+						data-src="../images/animation-5.png"
+						data-text="5. Hit Play, and adjust the FPS to control the speed it plays at. Optionally, turn on auto play"
+						alt="5"
+					/>
+					<img
+						src="../images/animation-6.png"
+						data-src="../images/animation-6.png"
+						data-text="Step 6: Integrate the animated object into your scene."
+						alt="6"
+					/>
+				</div>
+				<div class="main">
+					<img id="mainImg" src="../images/animation-1.png" alt="1" />
+					<div id="instruction" class="instruction">
+						1. Create a new scene for your object, and use "Area2D" As the root
+						node.
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<script src="../js/viewer.js"></script>
+		<script>
+			initViewer(".viewer .thumbs img", "#mainImg", "#instruction");
+		</script>
+	</body>
+</html>

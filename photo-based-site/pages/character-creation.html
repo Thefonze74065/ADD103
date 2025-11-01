@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Character Creation</title>
+		<link rel="stylesheet" href="../css/styles.css" />
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container"><h1>Character Creation</h1></div>
+		</header>
+		<nav class="site-nav">
+			<div class="container nav-inner">
+				<a href="../index.html">Home</a
+				><a href="installation.html">Installation &amp; Setup</a
+				><a href="character-creation.html">Character Creation</a
+				><a href="creating-a-tileset.html">Creating A Tileset</a
+				><a href="animating-objects.html">Animating Objects</a>
+			</div>
+		</nav>
+
+		<main class="container">
+			<section class="steps">
+				<article class="step-card">
+					<div class="step-num">1</div>
+					<div class="step-media multi">
+						<img src="../images/CharacterCreation-1.png" alt="1" />
+						<img src="../images/CharacterCreation-1-2.png" alt="1" />
+					</div>
+					<div class="step-text">
+						<h3>Create 2D Scene</h3>
+						<p>
+							Create a 2d Scene, and name it 'Game'. Save the scene to a
+							'scenes' folder within the project.
+						</p>
+					</div>
+				</article>
+				<article class="step-card">
+					<div class="step-num">2</div>
+					<div class="step-media">
+						<img src="../images/CharacterCreation-2.png" alt="2" />
+					</div>
+					<div class="step-text">
+						<h3>Add CharacterBody2D</h3>
+						<p>
+							Click this button to create a new 'scene'. Add a child node, and
+							search for CharacterBody2D. Click Create at the bottom when you
+							have it selected.
+						</p>
+					</div>
+				</article>
+				<article class="step-card">
+					<div class="step-num">3</div>
+					<div class="step-media">
+						<img src="../images/CharacterCreation-3.png" alt="3" />
+					</div>
+					<div class="step-text">
+						<h3>Add Sprite2D</h3>
+						<p>
+							Press CTRL+A to add another node as a child of the Character Body,
+							and search for 'Sprite2D'. Assign it an image in the inspector
+							window to the right. You can download some example assets at
+							https://brackeysgames.itch.io/brackeys-platformer-bundle. If you
+							use this, Use an AnimatedSprite2D instead, and read the 'Animating
+							Objects' section on a guide to set up simple animations. (In this
+							case, an Idle Animation)
+						</p>
+					</div>
+				</article>
+				<article class="step-card">
+					<div class="step-num">4</div>
+					<div class="step-media">
+						<img src="../images/CharacterCreation-4.png" alt="4" />
+					</div>
+					<div class="step-text">
+						<h3>Save and Add to Game</h3>
+						<p>
+							Save the scene, name it Player, and head back to your game scene.
+							Simply drag the player scene into this one, and your player will
+							appear.
+						</p>
+					</div>
+				</article>
+				<article class="step-card">
+					<div class="step-num">5</div>
+					<div class="step-media">
+						<img src="../images/CharacterCreation-5.png" alt="5" />
+					</div>
+					<div class="step-text">
+						<h3>Add Script</h3>
+						<p>
+							Back in your player scene, add a script to your root node. For
+							now, use the basic movement template provided by godot. Save the
+							script to a 'scripts' folder.
+						</p>
+					</div>
+				</article>
+			</section>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Installation & Setup</title>
+		<link rel="stylesheet" href="../css/styles.css" />
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container"><h1>Installation &amp; Setup</h1></div>
+		</header>
+		<nav class="site-nav">
+			<div class="container nav-inner">
+				<a href="../index.html">Home</a
+				><a href="installation.html">Installation &amp; Setup</a
+				><a href="character-creation.html">Character Creation</a
+				><a href="creating-a-tileset.html">Creating A Tileset</a
+				><a href="animating-objects.html">Animating Objects</a>
+			</div>
+		</nav>
+
+		<main class="container">
+			<section class="viewer" aria-label="Step viewer">
+				<div class="thumbs">
+					<img
+						src="../images/Installation-1.png"
+						data-src="../images/Installation-1.png"
+						data-text="1. First, open a browser, and navigate to 'godotengine.org'."
+						alt="1"
+					/>
+					<img
+						src="../images/Installation-2.png"
+						data-src="../images/Installation-2.png"
+						data-text='2. Second, click "Download Latest"'
+						alt="2"
+					/>
+					<img
+						src="../images/Installation-3.png"
+						data-src="../images/Installation-3.png"
+						data-text='3. Third, Click "Godot Engine". Congrats! Godot is now downloaded.'
+						alt="3"
+					/>
+					<img
+						src="../images/Installation-4.png"
+						data-src="../images/Installation-4.png"
+						data-text="4. Fourth, Unzip and Launch Godot."
+						alt="4"
+					/>
+					<img
+						src="../images/Installation-5.png"
+						data-src="../images/Installation-5.png"
+						data-text="5. Fifth, Click Cancel when it asks if you want to explore example projects."
+						alt="5"
+					/>
+					<img src="../images/Installation-6.png"
+					data-src="../images/Installation-6.png" data-text="6. Sixth, Click
+					New. Give a name to your project and place it somewhere you'll
+					remember. Finally, click "Create and Edit". You've now created a blank
+					Godot project. Click on "Character Creation" when you are ready to
+					continue to the next step." alt="6" />
+				</div>
+				<div class="main">
+					<img id="mainImg" src="../images/Installation-1.png" alt="1" />
+					<div id="instruction" class="instruction">
+						1. First, open a browser, and navigate to 'godotengine.org'.
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<script src="../js/viewer.js"></script>
+		<script>
+			initViewer(".viewer .thumbs img", "#mainImg", "#instruction");
+		</script>
+	</body>
+</html>
