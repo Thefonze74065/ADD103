@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Character Creation</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<nav class="navbar bg-light mb-3">
+			<div class="container">
+				<a class="navbar-brand" href="../index.html">Godot Tutorial</a>
+				<ul class="nav">
+					<li class="nav-item">
+						<a class="nav-link" href="../index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="installation.html">Install</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="character-creation.html"
+							>Character</a
+						>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="creating-a-tileset.html">Tileset</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="animating-objects.html">Animate</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<main class="container py-3">
+			<div class="row g-3">
+				<div class="col-12">
+					<h1 class="h4">Character Creation</h1>
+				</div>
+
+				<!-- Step 1 (two images) -->
+				<div class="col-12">
+					<div class="card mb-3">
+						<div class="row g-0 align-items-center">
+							<div class="col-md-2 text-center">
+								<div class="fs-4 fw-bold">1</div>
+							</div>
+							<div class="col-md-4 d-flex gap-2">
+								<img
+									src="../images/CharacterCreation-1.png"
+									class="img-fluid rounded"
+									alt="1"
+								/>
+								<img
+									src="../images/CharacterCreation-1-2.png"
+									class="img-fluid rounded"
+									alt="1-2"
+								/>
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h3 class="h6">Create 2D Scene</h3>
+									<p>
+										Create a 2d Scene, and name it 'Game'. Save the scene to a
+										'scenes' folder within the project.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Remaining steps: simple card per step -->
+				<div class="col-12">
+					<div class="card mb-3">
+						<div class="row g-0 align-items-center">
+							<div class="col-md-2 text-center">
+								<div class="fs-4 fw-bold">2</div>
+							</div>
+							<div class="col-md-4">
+								<img
+									src="../images/CharacterCreation-2.png"
+									class="img-fluid rounded"
+									alt="2"
+								/>
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h3 class="h6">Add CharacterBody2D</h3>
+									<p>
+										Click this button to create a new 'scene'. Add a child node,
+										and search for CharacterBody2D. Click Create at the bottom
+										when you have it selected.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12">
+					<div class="card mb-3">
+						<div class="row g-0 align-items-center">
+							<div class="col-md-2 text-center">
+								<div class="fs-4 fw-bold">3</div>
+							</div>
+							<div class="col-md-4">
+								<img
+									src="../images/CharacterCreation-3.png"
+									class="img-fluid rounded"
+									alt="3"
+								/>
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h3 class="h6">Add Sprite2D</h3>
+									<p>
+										Press CTRL+A to add another node as a child of the Character
+										Body, and search for 'Sprite2D'. Assign it an image in the
+										inspector window to the right. You can download some example
+										assets at
+										https://brackeysgames.itch.io/brackeys-platformer-bundle. If
+										you use this, Use an AnimatedSprite2D instead, and read the
+										'Animating Objects' section on a guide to set up simple
+										animations. (In this case, an Idle Animation)
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12">
+					<div class="card mb-3">
+						<div class="row g-0 align-items-center">
+							<div class="col-md-2 text-center">
+								<div class="fs-4 fw-bold">4</div>
+							</div>
+							<div class="col-md-4">
+								<img
+									src="../images/CharacterCreation-4.png"
+									class="img-fluid rounded"
+									alt="4"
+								/>
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h3 class="h6">Save and Add to Game</h3>
+									<p>
+										Save the scene, name it Player, and head back to your game
+										scene. Simply drag the player scene into this one, and your
+										player will appear.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12">
+					<div class="card mb-3">
+						<div class="row g-0 align-items-center">
+							<div class="col-md-2 text-center">
+								<div class="fs-4 fw-bold">5</div>
+							</div>
+							<div class="col-md-4">
+								<img
+									src="../images/CharacterCreation-5.png"
+									class="img-fluid rounded"
+									alt="5"
+								/>
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h3 class="h6">Add Script</h3>
+									<p>
+										Back in your player scene, add a script to your root node.
+										For now, use the basic movement template provided by godot.
+										Save the script to a 'scripts' folder.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>

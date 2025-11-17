@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Creating A Tileset</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<nav class="navbar bg-light mb-3">
+			<div class="container">
+				<a class="navbar-brand" href="../index.html">Godot Tutorial</a>
+				<ul class="nav">
+					<li class="nav-item">
+						<a class="nav-link" href="../index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="installation.html">Install</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="character-creation.html">Character</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="creating-a-tileset.html"
+							>Tileset</a
+						>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="animating-objects.html">Animate</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<main class="container py-3">
+			<h1 class="h4 mb-3">Creating A Tileset</h1>
+			<div class="row g-3">
+				<div class="col-12">
+					<div class="card mb-3">
+						<div class="row g-0 align-items-center">
+							<div class="col-md-2 text-center">
+								<div class="fs-4 fw-bold">1</div>
+							</div>
+							<div class="col-md-4">
+								<img
+									src="../images/tileset-1.png"
+									class="img-fluid rounded"
+									alt="1"
+								/>
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h3 class="h6">Add TileMap</h3>
+									<p>
+										In your game scene, add a 'TileMap' as a child of your game
+										node.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12">
+					<div class="card mb-3">
+						<div class="row g-0 align-items-center">
+							<div class="col-md-2 text-center">
+								<div class="fs-4 fw-bold">2</div>
+							</div>
+							<div class="col-md-4">
+								<img
+									src="../images/tileset-2.png"
+									class="img-fluid rounded"
+									alt="2"
+								/>
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h3 class="h6">Create TileSet</h3>
+									<p>In the inspector window, create a new tileset.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12">
+					<div class="card mb-3">
+						<div class="row g-0 align-items-center">
+							<div class="col-md-2 text-center">
+								<div class="fs-4 fw-bold">3</div>
+							</div>
+							<div class="col-md-4">
+								<img
+									src="../images/tileset-3.png"
+									class="img-fluid rounded"
+									alt="3"
+								/>
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h3 class="h6">Import Tileset</h3>
+									<p>
+										At the bottom of the screen, click 'TileSet'. If you're
+										using the demo assets, drag in 'world_tileset.png' to this
+										screen. Click 'yes' when It asks if you want to
+										automatically create tiles in the atlas.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12">
+					<div class="card mb-3">
+						<div class="row g-0 align-items-center">
+							<div class="col-md-2 text-center">
+								<div class="fs-4 fw-bold">4</div>
+							</div>
+							<div class="col-md-4">
+								<img
+									src="../images/tileset-4.png"
+									class="img-fluid rounded"
+									alt="4"
+								/>
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h3 class="h6">Paint Environment</h3>
+									<p>
+										Using the paint tool in the TileMap window, select a tile
+										and start to paint in your environment to the game scene.
+										Get creative!
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12">
+					<div class="card mb-3">
+						<div class="row g-0 align-items-center">
+							<div class="col-md-2 text-center">
+								<div class="fs-4 fw-bold">5</div>
+							</div>
+							<div class="col-md-4 d-flex gap-2">
+								<img
+									src="../images/tileset-5-1.png"
+									class="img-fluid rounded"
+									alt="5-1"
+								/><img
+									src="../images/tileset-5-2.png"
+									class="img-fluid rounded"
+									alt="5-2"
+								/>
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h3 class="h6">Add Physics Layer</h3>
+									<p>
+										In the inspector, add a new physics layer to the tilemap.
+										Back in the TileSet window, click the 'paint' tab and paint
+										the new physics layer onto each tile you want to have
+										collision.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>

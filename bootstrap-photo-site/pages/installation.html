@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Installation &amp; Setup</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<nav class="navbar bg-light mb-3">
+			<div class="container">
+				<a class="navbar-brand" href="../index.html">Godot Tutorial</a>
+				<ul class="nav">
+					<li class="nav-item">
+						<a class="nav-link" href="../index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="installation.html">Install</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="character-creation.html">Character</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="creating-a-tileset.html">Tileset</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="animating-objects.html">Animate</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<main class="container py-3">
+			<div class="row">
+				<div class="col-md-4 d-flex flex-column gap-2">
+					<img
+						src="../images/Installation-1.png"
+						data-src="../images/Installation-1.png"
+						data-text="1. First, open a browser, and navigate to 'godotengine.org'."
+						class="img-fluid"
+						style="max-width: 80px; cursor: pointer"
+						alt="1"
+					/>
+					<img
+						src="../images/Installation-2.png"
+						data-src="../images/Installation-2.png"
+						data-text='2. Second, click "Download Latest"'
+						class="img-fluid"
+						style="max-width: 80px; cursor: pointer"
+						alt="2"
+					/>
+					<img
+						src="../images/Installation-3.png"
+						data-src="../images/Installation-3.png"
+						data-text='3. Third, Click "Godot Engine". Congrats! Godot is now downloaded.'
+						class="img-fluid"
+						style="max-width: 80px; cursor: pointer"
+						alt="3"
+					/>
+					<img
+						src="../images/Installation-4.png"
+						data-src="../images/Installation-4.png"
+						data-text="4. Fourth, Unzip and Launch Godot."
+						class="img-fluid"
+						style="max-width: 80px; cursor: pointer"
+						alt="4"
+					/>
+					<img
+						src="../images/Installation-5.png"
+						data-src="../images/Installation-5.png"
+						data-text="5. Fifth, Click Cancel when it asks if you want to explore example projects."
+						class="img-fluid"
+						style="max-width: 80px; cursor: pointer"
+						alt="5"
+					/>
+					<img
+						src="../images/Installation-6.png"
+						data-src="../images/Installation-6.png"
+						data-text="6. Sixth, Click New. Give a name to your project and place it somewhere you'll remember. Finally, click 'Create and Edit'. You've now created a blank Godot project. Click on 'Character Creation' when you are ready to continue to the next step."
+						class="img-fluid"
+						style="max-width: 80px; cursor: pointer"
+						alt="6"
+					/>
+				</div>
+				<div class="col-md-8">
+					<div class="card">
+						<img
+							id="mainImg"
+							src="../images/Installation-1.png"
+							class="card-img-top"
+							alt="main"
+						/>
+						<div class="card-body">
+							<p id="instruction" class="card-text">
+								1. First, open a browser, and navigate to 'godotengine.org'.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<script src="../js/viewer.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+		<script>
+			initViewer(".d-flex img", "#mainImg", "#instruction");
+		</script>
+	</body>
+</html>
