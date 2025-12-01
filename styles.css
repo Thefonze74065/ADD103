@@ -1,0 +1,66 @@
+:root {
+	/* Typography and layout */
+	--font-body: Arial, sans-serif;
+	--max-width: 800px;
+	--page-margin: 40px auto;
+	--page-padding: 20px;
+
+	/* Colors */
+	--color-bg: #f5f5f5;
+	--color-heading: #333333;
+	--color-accent: #4a90e2;
+	--color-card-bg: #ffffff;
+	--color-text: #666666;
+	--color-link: #2c5aa0;
+	--color-link-hover-bg: #e8f0fe;
+
+	/* Effects */
+	--radius-sm: 4px;
+	--radius-md: 8px;
+	--shadow-card: 0 2px 8px rgba(0, 0, 0, 0.1);
+	--transition-fast: background 0.2s;
+}
+
+body {
+	font-family: var(--font-body);
+	max-width: var(--max-width);
+	margin: var(--page-margin);
+	padding: var(--page-padding);
+	background: var(--color-bg);
+}
+h1 {
+	color: var(--color-heading);
+	border-bottom: 3px solid var(--color-accent);
+	padding-bottom: 10px;
+}
+dl {
+	background: var(--color-card-bg);
+	padding: 20px;
+	border-radius: var(--radius-md);
+	box-shadow: var(--shadow-card);
+}
+dt {
+	font-weight: bold;
+	color: var(--color-accent);
+	margin-top: 16px;
+	font-size: 18px;
+}
+dt:first-of-type {
+	margin-top: 0;
+}
+dd {
+	margin-left: 20px;
+	margin-bottom: 8px;
+	color: var(--color-text);
+}
+dt a {
+	color: var(--color-link);
+	text-decoration: none;
+	padding: 4px 8px;
+	border-radius: var(--radius-sm);
+	transition: var(--transition-fast);
+}
+dt a:hover {
+	background: var(--color-link-hover-bg);
+	text-decoration: underline;
+}
